@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    let x=[1,-2,3,-4,7,2,5];
+    let i=0;
+    let max=x[0];
+    let index;
+    for (;i<x.length;i++) {
+        if (x[i]>max) {
+            max=x[i];
+            index=i;
+        }
+    }
+    alert('Max: '+max+' position at '+index);
+</script>
+</body>
+</html>
